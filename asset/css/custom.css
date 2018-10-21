@@ -1,0 +1,51 @@
+@import url('fonts/OpenSansHebrew-Regular.ttf');
+
+@import url('fonts/aduma-regular-webfont.woff');
+html,body{
+  font-family: 'Open sans', Hebrew;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'aduma' , Regular;
+}
+.phone-call {
+  color: #ead83f;
+  font-size: 1em;
+}
+
+.logo {
+  width: 50%;
+}
+
+.gap {
+  padding: 10%;
+}
+
+footer {
+  background-image: url("../img/Rectangle\ 1\ copy.png");
+  height: 30vh;
+  display: flex;
+  align-items: center;
+}
+
+.sub-btn {
+  width: 100%;
+  background: #555;
+}
+/* webkit solution */
+::-webkit-input-placeholder {
+  text-align: right;
+}
+/* mozilla solution */
+input:-moz-placeholder {
+  text-align: right;
+}
+
+
+@media screen and (max-width: 767px){
+    footer {
+        background-image: url("../img/Rectangle\ 1\ copy.png");
+        height: 50vh;
+        display: flex;
+        align-items: center;
+      }
+}
